@@ -12,4 +12,4 @@ or you can use these cpanel hosted sites [front1](http://triton.byethost7.com/te
 
 
 ### 2. Using server sent events SSE (<i>server dependent</i>)
-SSE can be used in sending real time updates form the server to the clients on some intervals. A simple demo is here [->]() , to use upload the files from this directory to the server and open the index.html you'll see the responses from the server.
+SSE can be used in sending real time updates form the server to the clients on some intervals. A simple demo is here [->](f) , to use upload the files from this directory to the server and open the index.html you'll see the responses from the server.
