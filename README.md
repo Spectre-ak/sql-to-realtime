@@ -11,4 +11,4 @@ Clone [two way chatting using sql database](https://github.com/Spectre-ak/sql-to
 or you can use these cpanel hosted sites [front1](http://triton.byethost7.com/testing/front1) & [front2](http://triton.byethost7.com/testing/front2)
 
 
-### 2. Using server sent events SSE (server dependent)
+### 2. Using server sent events SSE (<i>server dependent</i>)
