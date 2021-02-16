@@ -7,8 +7,8 @@ adding event listeners on SQL database and providing real time updates
 How to use:
 
 Clone [two way chatting using sql database](https://github.com/Spectre-ak/sql-to-realtime/tree/main/two%20way%20chatting%20using%20sql%20database) and create two table in the sql database dbo.f1 & dbo.f2. Then open the [front1](https://github.com/Spectre-ak/sql-to-realtime/blob/main/two%20way%20chatting%20using%20sql%20database/front1.html) and [front2](https://github.com/Spectre-ak/sql-to-realtime/blob/main/two%20way%20chatting%20using%20sql%20database/front1.html) pages and begin chat.
-
 or you can use these cpanel hosted sites [front1](http://triton.byethost7.com/testing/front1) & [front2](http://triton.byethost7.com/testing/front2)
 
 
 ### 2. Using server sent events SSE (<i>server dependent</i>)
+SSE can be used in sending real time updates form the server to the clients on some regular intervals.
