@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Using Server-Sent Events</title>
+<script>
+if(typeof(EventSource)!="undefined"){
+   var source=new EventSource("ssedemo.php");
+   source.onmessage=function(event){
+      document.getElementById("result").append(document.createTextNode(event.data));
+   } 
+}
+</script>
+</head>
+<body>
+    <div id="result">
+       
+    </div>
+</body>
+</html>  
