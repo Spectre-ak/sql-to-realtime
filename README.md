@@ -18,7 +18,7 @@ SSE can be used in sending real time updates form the server to the clients on s
 In this method SSE is used to give snapshot of the database/table to the user and the snapshot can be filtered by the SSE depending on the user.
 For example a simple room chat application is shown in [sse and post](https://github.com/Spectre-ak/sql-to-realtime/tree/main/sse%20and%20post) where the user has the option to  join a room or create a room. Here a room in code means as a table. 
   
-So joining a room adds the user to the room(table) columns and SSE is set to listen on that column. Creating a room makes a new table on the database, now users can join this room and begin their chat. PHP uniqid() is used to create unique IDs for different users.
+So joining a room adds the user to the room(table) columns and SSE is set to listen on that column. Creating a room makes a new table on the database, now users can join this room and begin their chat with their PHP uniqid. A message which is sent by any user will be received by all listeners or users in the room/table and for that AJAX post is used. 
   
 How to use:
 
