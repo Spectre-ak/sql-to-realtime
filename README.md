@@ -22,4 +22,4 @@ So joining a room adds the user to the room(table) columns and SSE is set to lis
   
 How to use:
 
-Can use local by cloning the repositry or visit the cpanel hosted site
+Can use local by cloning the repositry or visit the cpanel hosted site [JoinOrCreate](http://triton.byethost7.com/sqlToRealTime/JoinOrCreate)
